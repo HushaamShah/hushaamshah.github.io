@@ -1,0 +1,100 @@
+*{
+	scroll-behavior: smooth;
+	margin: 0;
+    padding: 0;
+
+}
+.main{
+	position:fixed;
+	width:99%;
+}
+
+#social li
+{
+	list-style-type: none;
+
+
+}
+ul{
+	display: flex; 
+	flex-direction: row;
+	position: fixed;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    
+}
+
+li{
+	padding: 5px;
+}
+
+a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 5px 10px;
+	border: 1px solid black;
+}
+
+#social{
+	display: flex;
+	float: right;
+}
+
+#education, #about{
+
+	display: flex;
+	flex-direction: column;
+	text-align: center;	
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
+}
+
+#skills, #projects {
+	text-align: center;
+	height: 150vh;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5rem;
+
+}
+.grid > div {
+
+  background: #EDE7F6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+#project-1, #project-3{
+	width: 200px;
+	height: 200px;
+	float: left;
+
+}
+
+#project-2, #project-4{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+.pgrid {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-gap: 5rem;
+  padding: 10vh 10vh;
+
+}
+.pgrid > div {
+
+  background: #EDE7F6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
