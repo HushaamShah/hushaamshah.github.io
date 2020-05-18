@@ -12,25 +12,22 @@
 #social li
 {
 	list-style-type: none;
-
-
 }
-ul{
+.main ul{
 	display: flex; 
 	flex-direction: row;
 	position: fixed;
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 50%;
-    
+    width: 50%;   
 }
 
-li{
+.main li{
 	padding: 5px;
 }
 
-a{
+.main a{
 	display: block;
 	color: black;
 	text-decoration: none;
@@ -86,15 +83,22 @@ a{
 }
 
 .pgrid {
-  display: inline-grid;
-  grid-template-columns: 1fr;
-  grid-gap: 5rem;
-  padding: 10vh 10vh;
-
+	display: inline-grid;
+	grid-template-columns: 1fr;
+	grid-gap: 5rem;
+	padding: 10vh 10vh;
+	text-align: left;
 }
-.pgrid > div {
 
-  background: #EDE7F6;
-  padding: 1.5rem;
-  border-radius: 1rem;
+.pgrid > div {
+	background: #EDE7F6;
+	padding: 1.5rem;
+	border-radius: 1rem;
+}
+
+.pgrid ul {
+	/*display: list-item;*/
+	list-style-type: disc;
+	list-style-position: inside;
+	/*padding-right: 500px;*/
 }
