@@ -1,44 +1,25 @@
-/*body{
-	background-color: #EDE7F6;
-	background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../pics/fairy.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-*/
-#about{
-	background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../pics/fairy.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#about {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../pics/fairy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-/*#education > h1{
-	background-color: pink;
-}*/
-
-.grid > div, .pgrid > div{
-	background-color: #EDE7F6;
-    color: black;
+/* #education {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+} */
+#project-1:hover,
+#project-2:hover,
+#project-3:hover,
+#project-4:hover {
+  opacity: 0.5;
 }
 
-h1, h2{
-	font-family: Felix Titling;
-	font-style: bold;
-}
-
-h4{
-	font-family: Felix Titling;
-}
-
-p, a{
-	font-family: Gill Sans MT;
-}
-
-#project-1:hover,#project-2:hover,#project-3:hover,#project-4:hover{
-	opacity:0.5;
-}
-
-a:hover{
-	color: #64686b;
+a:hover {
+  color: #108dec;
 }
